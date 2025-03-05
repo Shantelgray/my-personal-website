@@ -3,7 +3,8 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: 500px;
     text-align: center;
+    color: black;
   }
   
