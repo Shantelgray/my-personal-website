@@ -1,10 +1,18 @@
 body {
-    background-image: url(background.png);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
     background-size: 500px;
     text-align: center;
-    color: black;
+    color: rgb(44, 168, 209);
   }
-  
+.cover-photo {
+    background-image:url(sneakers.pbg)
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    max-height: 500px;
+    display: block;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
