@@ -6,13 +6,76 @@ body {
     text-align: center;
     color: rgb(44, 168, 209);
   }
+h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #007bff;
+    opacity: 0;
+    transform: scale(0.5);
+    animation: fadeInScale 2s ease-out forwards;
+}
+@keyframes fadeInScale {
+   0% {
+       opacity: 0;
+       transform: scale(0.5);
+    }
+    100% {
+        opacity: 2;
+        transform: scale(2);
+    }
+}
 .cover-photo {
-    background-image:url(sneakers.pbg)
-    width: 100%;
+    background-image:url(sneakers.pbg);
+    background-attachment: fixed;
+    width: 90%;
     height: auto;
     object-fit: cover;
-    max-height: 500px;
+    max-height: 400px;
     display: block;
     margin-top: 0;
+    margin-bottom: 10px;
+}
+.footer-link {
+    text-align: center;
+    margin-bottom: 60px; 
+    margin: 50px;
+    position: fixed;
+}
+body{
+    background: linear-gradient(to bottom, #ffff00 0%, #6600cc 100%);
+    text-align: center;
+}
+h1 {
+    font-family: "Papyrus", fantasy;
+}
+h2 {
+    font-family: "Copperplate", fantasy;
+}
+h3 {
+    font-family: "Courier New", monospace;
+}
+ol {
+    margin: 20px auto;
+    padding: 0;
+    max-width: 400px;
+    list-style-position: inside;
+}
+ol li {
     margin-bottom: 20px;
+    font-size: 20px;
+}
+.center-link {
+    text-align: center;
+}
+.home-link {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    padding: 20px 20px;
+    border-radius: 10px;
+    z-index: 9999;
+}
+.home-link:hover {
+    background-color: #0056b3;
 }
