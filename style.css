@@ -43,7 +43,7 @@ h1{
     position: fixed;
 }
 body{
-    background: linear-gradient(to bottom, #ffff00 0%, #6600cc 100%);
+    background: white
     text-align: center;
 }
 h1 {
@@ -67,6 +67,7 @@ ol li {
 }
 .center-link {
     text-align: center;
+    margin: 0;
 }
 .home-link {
     position: fixed;

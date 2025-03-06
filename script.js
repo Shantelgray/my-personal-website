@@ -1,5 +1,5 @@
 const h2 = document.createElement("h2");
-h2.textContent = "Aspiring Coder";
+h2.textContent = "Aspiring Developer";
 document.querySelector("body").appendChild(h2);
 
 const toggleButton = document.getElementById('toggleButton');
