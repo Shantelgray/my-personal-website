@@ -20,9 +20,10 @@ body {
     background-size: 500px;
     text-align: center;
     color: lightseagreen;
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
-    margin-top: 100px;
+    margin: 350px;
+    margin-left: 196px;
 }   
 h1{
     text-align: center;
@@ -53,13 +54,6 @@ h1{
     display: block;
     margin-top: 0;
     margin-bottom: 20px;
-
-}
-.footer-link {
-    text-align: center;
-    margin-bottom: 60px; 
-    margin: 50px;
-    position: fixed;
 }
 body{
     margin: 163px;
@@ -83,7 +77,7 @@ h4 {
 ol {
     margin: 20px auto;
     padding: 0;
-    max-width: 100%;
+    max-width: 400px;
     list-style-position: inside;
 }
 ol li {
@@ -105,29 +99,49 @@ ol li {
     top: 20px;
     left: 20px;
     padding: 20px 20px;
-    z-index: 9999;
 }
 .home-link:hover {
     background-color: lightseagreen;
 }
 .game-image1 {
-    max-width: 100%;
+    max-width: 325px;
     height: auto;
 }
 .image-container {
     display: fixed;
 }
 .game-image2 {
-    max-width: 100%;
+    max-width: 325px;
     height: auto;
 }
 .image-container2 {
     display: fixed;
 }
 .game-image3 {
-    max-width: 100%;
-    height: auto;
+    max-width: 325px;
+    height:auto;
 }
 .image-container3 {
-    display: fixed;
+display: fixed;
+}
+body {
+    margin: 0;
+    padding: 0;
+    height: 100;
+    background: whitesmoke;
+    text-align: center;
+}
+.centent {
+    text-align: center;
+    padding: 20px;
+}
+.aboutme-link {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    z-index: 1000;
 }
