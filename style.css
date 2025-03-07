@@ -70,9 +70,14 @@ h1 {
 }
 h2 {
     font-family: "Copperplate", fantasy;
+    text-decoration: underline;
 }
 h3 {
     font-family: "Courier New", monospace;
+    text-decoration: underline;
+}
+h4 {
+    text-decoration: underline;
 }
 ol {
     margin: 20px auto;
@@ -88,6 +93,12 @@ ol li {
     text-align: center;
     margin-top: 20px;
     display: block;  
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    padding: 20px 20px;
+    border-radius: 10px;
+    z-index: 9999;
 }
 .home-link {
     position: fixed;
