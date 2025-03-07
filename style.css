@@ -83,7 +83,7 @@ h4 {
 ol {
     margin: 20px auto;
     padding: 0;
-    max-width: 400px;
+    max-width: 100%;
     list-style-position: inside;
 }
 ol li {
@@ -111,21 +111,21 @@ ol li {
     background-color: lightseagreen;
 }
 .game-image1 {
-    max-width: 190px;
+    max-width: 100%;
     height: auto;
 }
 .image-container {
     display: fixed;
 }
 .game-image2 {
-    max-width: 190px;
+    max-width: 100%;
     height: auto;
 }
 .image-container2 {
     display: fixed;
 }
 .game-image3 {
-    max-width: 190px;
+    max-width: 100%;
     height: auto;
 }
 .image-container3 {
