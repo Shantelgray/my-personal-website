@@ -22,7 +22,8 @@ body {
     color: lightseagreen;
     font-size: 20px;
     text-align: center;
-}
+    margin-top: 100px;
+}   
 h1{
     text-align: center;
     font-size: 30px;
@@ -45,13 +46,14 @@ h1{
 .cover-photo {
     background-image:url(sneakers.pbg);
     background-attachment: fixed;
-    width: 90%;
+    width: 90px;
     height: auto;
     object-fit: cover;
-    max-height: 400px;
+    max-height: 375px;
     display: block;
     margin-top: 0;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+
 }
 .footer-link {
     text-align: center;
