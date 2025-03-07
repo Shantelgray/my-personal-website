@@ -1,18 +1,33 @@
+img {
+    animation-name: animate;
+    animation-duration: 0.9s;
+    animation-timing-function: ease-in-out;
+}
+@keyframes animate{
+    0%{
+      -webkit-clip-path: circle(0% at 50% 50%);
+clip-path: circle(0% at 50% 50%);
+    }
+    100%{
+        -webkit-clip-path: circle(100% at 50% 50%);
+clip-path: circle(100% at 50% 50%);
+    }
+}
 body {
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
     background-size: 500px;
     text-align: center;
-    color: rgb(44, 168, 209);
+    color: lightseagreen;
     font-size: 20px;
     text-align: center;
-  }
+}
 h1{
     text-align: center;
     font-size: 30px;
     font-weight: bold;
-    color: #007bff;
+    color: lightseagreen;
     opacity: 0;
     transform: scale(0.5);
     animation: fadeInScale 2s ease-out forwards;
@@ -81,5 +96,5 @@ ol li {
     z-index: 9999;
 }
 .home-link:hover {
-    background-color: #0056b3;
+    background-color: lightseagreen;
 }
