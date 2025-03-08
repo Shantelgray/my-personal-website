@@ -111,21 +111,21 @@ ol li {
     background-color: lightseagreen;
 }
 .game-image1 {
-    max-width: 100%;
+    max-width: 300px;
     height: auto;
 }
 .image-container {
     display: fixed;
 }
 .game-image2 {
-    max-width: 100%;
+    max-width: 300px;
     height: auto;
 }
 .image-container2 {
     display: fixed;
 }
 .game-image3 {
-    max-width: 100%;
+    max-width: 300px;
     height: auto;
 }
 .image-container3 {
